@@ -1,0 +1,31 @@
+#marquee {
+  text-align: center;
+  background-color: skyblue;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+#marquee p {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.info {
+  display:inline-block;
+}
+
+img {
+  float:right;
+  width:500px;
+  height:auto;
+  margin: 0px 30px 30px 30px;
+}
+
+p {
+  font-size: 28px;
+}
+
+footer p {
+  text-align: center;
+  font-size: 14px;
+}

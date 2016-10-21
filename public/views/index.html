@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html ng-app="charApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Matt's Action Team</title>
+
+    <script src="vendors/angular.min.js" charset="utf-8"></script>
+    <script src="vendors/angular-route.min.js" charset="utf-8"></script>
+
+    <script src="scripts/app.module.js" charset="utf-8"></script>
+    <script src="scripts/app.config.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="views/style.css">
+
+    <base href="/" />
+  </head>
+  <body>
+
+    <div id="marquee">
+      <p>Matthew's Super Awesome Action Team</p>
+
+      <a href="/char1">Team Leader</a>
+      <a href="/char2">Team Member 2</a>
+      <a href="/char3">Team Member 3</a>
+
+      
+    </div>
+    <ng-view>
+
+    </ng-view>
+  </body>
+  <footer>
+    <p>Created by Matthew Eng, CEO, MENG Worldwide</p>
+    <p>Contact information: <a href="matthewkeng@hotmail.com">matthewkeng@hotmail.com</a></p>
+  </footer>
+</html>
